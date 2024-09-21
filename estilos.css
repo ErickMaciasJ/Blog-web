@@ -1,0 +1,11 @@
+#parrafo-dj {
+    color: black;
+}
+
+header {
+    color: white;
+}
+
+header.titulo {
+    background-color: blue;
+}
