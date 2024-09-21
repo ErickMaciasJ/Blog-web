@@ -7,5 +7,20 @@ header {
 }
 
 header.titulo {
-    background-color: blue;
+    background-color: green;
+}
+
+nav ul li {
+    float: left;
+    width: 8%;
+}
+
+nav ul {
+    background-color: red;
+}
+
+.borde::after {
+    clear:both;
+    content:"";
+    display:table;
 }
