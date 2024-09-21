@@ -2,11 +2,11 @@
     color: black;
 }
 
-header {
-    color: white;
+h1 {
+    color: black;
 }
 
-header.titulo {
+h1.titulo {
     background-color: green;
 }
 
