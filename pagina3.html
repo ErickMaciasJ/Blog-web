@@ -20,10 +20,11 @@
 <fieldset>
     <legend><h4>Formulario de contacto</h4></legend>
     <label>Nombre:</label>
-    <input type="text" name="txtnombre" placeholder="Obligatorio"> 
+    <input id="nombress" type="text" name="txtnombre" placeholder="Obligatorio"> 
+    
     <br>
     <label>Apellidos:</label>
-    <input type="text" name="txtapellido" placeholder="Obligatorio">
+    <input  type="text" name="txtapellido" placeholder="Obligatorio">
     <br>
     <label>Tipo de mensaje:</label>
     <input type="radio" name="rdq">Queja
@@ -45,7 +46,15 @@
    <textarea name="Cuerpo de mensaje" id="mensaje"></textarea>
     <br>
     <label>Clic para enviar</label>
-    <input type="submit" name="Boton">
+    <input id="bot" onclick="botoncito()" botoncito type="submit" name="Boton">
+    <script>
+        function botoncito() {
+            alert('Mensaje enviado,gracias' + nombress);
+           var nombress = document.getElementById('nombress').value;
+        }
+    </script>
+   
+
 </fieldset>
 </body>
 </html>
